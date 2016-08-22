@@ -1,0 +1,8 @@
+#!/bin/bash
+export OPENSTACK_SERVICE_SCHEDULER=nova-scheduler
+export OPENSTACK_SERVICE_CERT=nova-cert
+export OPENSTACK_PORT_MCASTPORT=5404
+export OPENSTACK_SERVICE_OBJECTSTORE=nova-objectstore
+export OPENSTACK_SERVICE_API_EC2=nova-api-ec2
+export OPENSTACK_SERVICE_API_OS_COMPUTE=nova-api-os-compute
+export OPENSTACK_SERVICE_CONDUCTOR=nova-conductor
